@@ -1,0 +1,186 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jaypatel.co.in.bvmalumni.AboutUs.AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="BIRLA VISHVAKARMA MAHAVIDYALAYA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:background="#00897b"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u25BA A PREMIER INSTITUTION OF CVM\n\u25BA FOUNDED IN 1948\n\u25BA Motto: Work is Worship\n\u25BA First Approved by Government as grant paid College\n\u25BA More than 16000 engineers Graduated.\n\u25BA Degrees offered – B.E., M.E. and PhD"
+            android:padding="10dp"
+            android:lineSpacingExtra="3dp"
+            android:textSize="16sp"
+            android:id="@+id/textView3" />
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Starting Days"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/startingDays"
+            android:padding="5dp"
+            android:lineSpacingExtra="3dp"
+            android:textSize="16sp"/>
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BVM produces a baby - a Search Institute"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:padding="5dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u25CF In 1979, BVM was called upon to establish an institute working entirely for research, development, training and extension work in the area of renewable sources of energy particular for rural  application.\n\u25CF Dr. R M Dave took great pains in establishing the Jyoti Solar Energy Institute.\n\u25CF The institute(later renamed as Sardar Patel renewable Energy Research Institute) has now developed into a full - fledged institute working independently in the vital area of renewable energy."
+            android:padding="5dp"
+            android:lineSpacingExtra="3dp"
+            android:textSize="16sp"/>
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="Infrastructure"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u25CF Land : 18.96 acres\n\u25CF Built up area : 35704.00 sq.m."
+            android:padding="5dp"
+            android:lineSpacingExtra="3dp"
+            android:textSize="16sp"/>
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Outstanding facilities"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/outStanding"
+            android:padding="5dp"
+            android:lineSpacingExtra="3dp"
+            android:textSize="16sp"/>
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BVM enters in to IT Era"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u25CF The Computer Center was established in 1985 and is being continuously Upgraded and expanded.\n\u25CF Initially it had a UNIX-based minicomputer with Sixteen terminals and a number of PC/XTs and PC/ATs providing DOS Environment.\n\u25CF A high resolution work station  with sophisticated software was also available.\n\u25CF In addition, the  college installed personal computers in each department to meet the departmental requirements.\n\u25CF Currently, college is equipped with approx. 750 computers with good configuration like P4 and above."
+            android:padding="5dp"
+            android:lineSpacingExtra="3dp"
+            android:textSize="16sp"/>
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BVM gets Self-financed mode programs"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Two more IT related course are now run by BVM.\n\u25CF One in 2001-02, 60 seats was approved by AICTE in Information Technology.\n\u25CF Second one was also approved by AICTE in academic year 2006-07 with 60 seats in Electronics and Telecommunication.\n\u25CF Recently in 2012, two more existing courses, Mechanical and Production Engineering has been granted 30 seats each in Self-financed Mode by AICTE"
+            android:padding="5dp"
+            android:lineSpacingExtra="3dp"
+            android:textSize="16sp"/>
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Affiliations of the College"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   UNIVERSITY PERIOD\n\u25CF Bombay University JUNE 1948 - May 1951\n\u25CF Gujarat University JUNE 1951 - May 1957\n\u25CF Sardar Vallabhbhai Vdiyapeeth JUNE 1957 to JUNE 2008\n(Re-named as Sardar Patel University from 1966)\n\u25CF Gujarat Technological University JUNE 2008 On wards"
+            android:padding="5dp"
+            android:lineSpacingExtra="3dp"
+            android:textSize="16sp"/>
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Government Recognition"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u25CF BVM became the grant-in-aid institution of the State Government in 1958 and slowly grants from the State as well as Central Government started trickling in.\n\u25CF The Ministry of Works &amp; Housing  Govenment of India, Started a Rural Housing Wing from 1st January 1959.\n\u25CF Principal of BVM, was named as the Ex-office Director of the Wing.\n\u25CF The wing was later renamed as a Regional Housing Development Center.\n\u25CF The Ministry of Urban Development, Government of India recognized BVM in 1984 as one of the centers for training in-service engineers in Environmental Engineering through postgraduate programmed of M E (Environmental Engineering) (the programmed was run by the institute earlier since 1979..)"
+            android:padding="5dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

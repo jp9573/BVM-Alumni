@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BVM Alumni</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <string name="PleaseWait">Please Wait...</string>
+    <string name="WorkInProgress">Work is in progress</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="startingDays">\u25CF The infrastructure of the college was generously designed for three year degree programme with an intake of 150 students every year.
+        \n\u25CF The main building (now known as A Block) had class rooms and laboratories.
+        \n\u25CF Workshops and heat engine laboratory, drawing hall, hydraulics laboratory and boiler house were separately constructed.
+        \n\u25CF Shri Gordhanbhai I Patel of M/s Gordhandas Desai &amp; Co was authorized to proceed to Europe and UK to purchase equipment for workshops, laboratories and surveying.
+        \n\u25CF The college thus started with the best of the equipment.</string>
+
+    <string name="outStanding">\u25CF A spacious hall on the south end of the ground floor of the main building which at one time housed the college library was converted in 1989 into a modern – Auditorium with a capacity of 350 seats and complete with acoustical treatment, light, sound and projection facilities.
+        \n\u25CF The Auditorium is beautifully carpeted and curtained and is rated today\'s as one of the best Auditorium on Vallabh Vidyanagar campus.
+        \n\u25CF The Mechanical Engineering building has a Conference Room installed with complete audio-visual facilities for a capacity of 40 seats.
+        \n\u25CF The college workshop was reorganized to establish laboratories for the Production Engineering programme and to house new and sophisticated machines.
+        \n\u25CF On south side of the workshop a new building has come up for Civil &amp; Production Engineering Laboratories.
+        \nThe building is constructed at a cost of Rs. 40 lakhs.
+        \n\u25CF Principal S B Junnarkar Guest House has a facility of well furnished 10 guest rooms at the second floor of newly constructed Building is constructed with the estimated cost of Rs.60 lakhs is added to BVM infrastructure.
+        \n\u25CF A Multipurpose Hall with donation from L&amp;T(with the help of CEO Er. Anil Nayak a BVMite) is also an addition to the services of alma mater.
+        \n\u25CF Computer Centers of Civil, Structural, Mathematics and Mechanical Engineering are also available for students and faculties with internet connectivity.
+        \n\u25CF College Canteen and conference room near Principal\'s office have been face lifted during 2006.</string>
+</resources>

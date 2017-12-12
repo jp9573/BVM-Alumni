@@ -1,0 +1,52 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="jaypatel.co.in.bvmalumni.Suggestions.Suggestions">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you have any suggestions then please let us know!"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="#ef00897b"
+            android:textColor="#fff" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Suggestion:"
+                android:padding="10dp"
+                android:minLines="8"
+                android:inputType="textMultiLine"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/suggestion"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:text="Send Suggestion"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/sendSuggestion"
+            style="@style/Widget.AppCompat.Button.Colored" />
+
+    </LinearLayout>
+</ScrollView>

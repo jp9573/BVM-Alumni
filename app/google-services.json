@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "663370397060",
+    "firebase_url": "https://bvm-alumni.firebaseio.com",
+    "project_id": "bvm-alumni",
+    "storage_bucket": "bvm-alumni.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663370397060:android:c82fd1899340fd77",
+        "android_client_info": {
+          "package_name": "jaypatel.co.in.bvmalumni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663370397060-fimh2eoud52bbhuesmns0jgj9d755ubg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jaypatel.co.in.bvmalumni",
+            "certificate_hash": "bf953534d4c09f812e052b2bb6008a9d7aac7c81"
+          }
+        },
+        {
+          "client_id": "663370397060-v1rdoa6bq5cf0l1dlv2vs3fg5pgkt50m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOW2wvDK_Xdahm8F_I0K6qEqa3TV9c3N4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663370397060-v1rdoa6bq5cf0l1dlv2vs3fg5pgkt50m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

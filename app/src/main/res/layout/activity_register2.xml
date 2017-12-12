@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:text="Upload File"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register2Head"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="#00897b"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_register2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="jaypatel.co.in.bvmalumni.Register.Register2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please select a file"
+            android:textSize="20sp"
+            android:id="@+id/filePath"
+            android:padding="5dp"/>
+
+        <Button
+            android:text="Browse file"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/browse"
+            android:onClick="browseFile"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="#0f9d58" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please select a PDF or IMAGE file which authenticate you as a BVMite"
+            android:padding="5dp"
+            android:textColor="@android:color/holo_red_light" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="BACK"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/back"
+                android:layout_weight="1"
+                android:onClick="back"/>
+
+            <Button
+                android:text="Register"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/register"
+                android:onClick="registerMe"
+                style="@style/Widget.AppCompat.Button.Colored" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

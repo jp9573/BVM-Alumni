@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_profile2"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@mipmap/ic_news"
+            android:title="Event News" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@mipmap/ic_notification"
+            android:title="Event Notifications" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/ic_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_suggestions"
+            android:icon="@mipmap/ic_suggestions"
+            android:title="Suggestions"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:icon="@mipmap/ic_about"
+            android:title="About Us" />
+    </group>
+
+    <group android:id="@+id/log">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/ic_logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Developed By">
+        <menu>
+            <item
+                android:id="@+id/nav_DevelopedBy"
+                android:icon="@drawable/cyecoders_only_logo_black"
+                android:title="CyeCoders" />
+        </menu>
+
+    </item>
+
+    <group>
+        <item
+            android:id="@+id/nav_MaintainedBy"
+            android:icon="@mipmap/ic_about"
+            android:title="Maintainers" />
+
+    </group>
+
+
+</menu>
