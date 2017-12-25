@@ -152,8 +152,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.nav_gallery) {
             //fragmentClass = Gallery.class;
             //setTitle("Gallery");
-            Intent intent = new Intent(this, FolderMainActivity.class);
-            startActivity(intent);
+            if(Info.isNetworkAvailable(this)) {
+                Intent intent = new Intent(this, FolderMainActivity.class);
+                startActivity(intent);
+            }else {
+                Info.showNetworkFailuireToast(this);
+            }
         } else if (id == R.id.nav_suggestions) {
             fragmentClass = Suggestions.class;
             setTitle("Suggestions");
