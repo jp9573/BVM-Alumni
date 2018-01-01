@@ -15,6 +15,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -22,13 +23,17 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.obsez.android.lib.filechooser.ChooserDialog;
+
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.net.HttpURLConnection;
+import java.net.URISyntaxException;
 import java.net.URL;
 
 import jaypatel.co.in.bvmalumni.Info;
+import jaypatel.co.in.bvmalumni.MainActivity;
 import jaypatel.co.in.bvmalumni.R;
 import jaypatel.co.in.bvmalumni.StartActivity;
 
@@ -69,22 +74,102 @@ public class Register2 extends AppCompatActivity {
         strName = getIntent().getStringExtra("name");
         strMobile = getIntent().getStringExtra("mobile");
         strPass = getIntent().getStringExtra("pass");
-    }
 
-    public void browseFile(View view) {
         if(Build.VERSION.SDK_INT >= 23) {
             if (checkSelfPermission(WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
             } else {
                 ActivityCompat.requestPermissions(this, new String[]{WRITE_EXTERNAL_STORAGE}, 1);
             }
         }
-        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+    }
+
+    public void browseFile(View view) {
+        /*Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
         Uri uri = Uri.parse(Environment.getExternalStorageDirectory().getPath() + File.separator);
         intent.setDataAndType(uri, "text/csv");
-        startActivityForResult(Intent.createChooser(intent, "Browse file"), 1);
+        startActivityForResult(Intent.createChooser(intent, "Browse file"), 1);*/
+        //showFileChooser();
+        new ChooserDialog().with(this)
+                .withStartFile(String.valueOf(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)))
+                .withChosenListener(new ChooserDialog.Result() {
+                    @Override
+                    public void onChoosePath(String path, File pathFile) {
+                        Toast.makeText(getApplicationContext(), "FILE: " + path, Toast.LENGTH_SHORT).show();
+                        filePath = path;
+                        fileDetail.setText(pathFile.getName());
+                    }
+                })
+                .build()
+                .show();
+    }
+
+    // added on 29/12/17
+    //private void showFileChooser() {
+    //    Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+        //intent.setType("*/*");
+    /*    intent.addCategory(Intent.CATEGORY_OPENABLE);
+
+        try {
+            startActivityForResult(Intent.createChooser(intent, "Select a File to Upload"),0);
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(this, "Please install a File Manager.",
+                    Toast.LENGTH_SHORT).show();
+        }
     }
 
     @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        switch (requestCode) {
+            case 0:
+                if (resultCode == RESULT_OK) {
+                    // Get the Uri of the selected file
+                    Uri uri = data.getData();
+                    Log.d("FILEIO", "File Uri: " + uri.toString());
+                    // Get the path
+                    String path = null;
+                    try {
+                        path = getPath(getApplicationContext(), uri);
+                    } catch (URISyntaxException e) {
+                        e.printStackTrace();
+                    }
+                    Log.d("FILEIO", "File Path: " + path);
+                    // Get the file instance
+                    // File file = new File(path);
+                    // Initiate the upload
+                    if(path != null) {
+                        File myFile = new File(path);
+                        filePath = path;
+                        fileDetail.setText(myFile.getName());
+                    }
+                }
+                break;
+        }
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    public static String getPath(Context context, Uri uri) throws URISyntaxException {
+        if ("content".equalsIgnoreCase(uri.getScheme())) {
+            String[] projection = { "_data" };
+            Cursor cursor = null;
+
+            try {
+                cursor = context.getContentResolver().query(uri, projection, null, null, null);
+                int column_index = cursor.getColumnIndexOrThrow("_data");
+                if (cursor.moveToFirst()) {
+                    return cursor.getString(column_index);
+                }
+            } catch (Exception e) {
+                // Eat it
+            }
+        }
+        else if ("file".equalsIgnoreCase(uri.getScheme())) {
+            return uri.getPath();
+        }
+
+        return null;
+    }*/
+
+    /*@Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch (requestCode) {
             case 1:
@@ -112,7 +197,7 @@ public class Register2 extends AppCompatActivity {
                 cursor.close();
             }
         }
-    }
+    }*/
 
     public void back(View view) {
         onBackPressed();

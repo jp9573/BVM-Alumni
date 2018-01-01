@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.obsez.android.lib.filechooser:filechooser-1.1.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/91bf2b991e8671480d76c9b83ec35312d26f0dee/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/91bf2b991e8671480d76c9b83ec35312d26f0dee/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

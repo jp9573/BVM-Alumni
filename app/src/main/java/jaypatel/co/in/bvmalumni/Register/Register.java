@@ -83,8 +83,8 @@ public class Register extends AppCompatActivity {
             email.setError("Please enter valid Email ID");
         }else if(strName.length() <= 0) {
             name.setError("Please enter valid Name");
-        }else if(strMobile.length() != 10) {
-            mobile.setError("Plase enter 10 digit mobile no");
+        }else if(strMobile.length() <= 0) {
+            mobile.setError("Plase enter a valid mobile no");
         }else if(strPass.length() < 8) {
             pass.setError("Please enter minimum 8 character long password");
         }else if(!strConfPass.equals(strPass)) {

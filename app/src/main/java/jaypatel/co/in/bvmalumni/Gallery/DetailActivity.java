@@ -1,6 +1,16 @@
 package jaypatel.co.in.bvmalumni.Gallery;
 
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -13,35 +23,36 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
+import com.bogdwellers.pinchtozoom.ImageMatrixTouchHandler;
 import com.bumptech.glide.Glide;
+import com.squareup.picasso.Callback;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.util.ArrayList;
 
+import jaypatel.co.in.bvmalumni.Info;
 import jaypatel.co.in.bvmalumni.R;
 
+import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 import static jaypatel.co.in.bvmalumni.R.*;
 
 public class DetailActivity extends AppCompatActivity {
 
-    /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
-     * fragments for each of the sections. We use a
-     * {@link FragmentPagerAdapter} derivative, which will keep every
-     * loaded fragment in memory. If this becomes too memory intensive, it
-     * may be best to switch to a
-     * {@link android.support.v4.app.FragmentStatePagerAdapter}.
-     */
     private SectionsPagerAdapter mSectionsPagerAdapter;
-
+    static String downloadURL;
     public ArrayList<ImageModel> data = new ArrayList<>();
     int pos;
-
     Toolbar toolbar;
+    Context context;
 
-    /**
-     * The {@link ViewPager} that will host the section contents.
-     */
     private ViewPager mViewPager;
 
     @Override
@@ -49,6 +60,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        context = this;
         toolbar = (Toolbar) findViewById(id.detail_toolbar);
         setSupportActionBar(toolbar);
 
@@ -57,13 +69,9 @@ public class DetailActivity extends AppCompatActivity {
 
         setTitle(data.get(pos).getName());
 
-        // Create the adapter that will return a fragment for each of the three
-        // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager(), data);
-        // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(id.container);
         mViewPager.setPageTransformer(true, new DepthPageTransformer());
-
         mViewPager.setAdapter(mSectionsPagerAdapter);
         mViewPager.setCurrentItem(pos);
 
@@ -87,9 +95,76 @@ public class DetailActivity extends AppCompatActivity {
             }
         });
 
-
+        if(Build.VERSION.SDK_INT >= 23) {
+            if (checkSelfPermission(WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+            } else {
+                ActivityCompat.requestPermissions((Activity) context, new String[]{WRITE_EXTERNAL_STORAGE}, 1);
+            }
+        }
     }
 
+    public void downloadImage(View view) {
+        Picasso.with(this).load(data.get(pos).getUrl()).into(target);
+    }
+
+    private Target target = new Target() {
+        @Override
+        public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+            saveImage(bitmap);
+        }
+
+        @Override
+        public void onBitmapFailed(Drawable errorDrawable) {
+
+        }
+
+        @Override
+        public void onPrepareLoad(Drawable placeHolderDrawable) {
+
+        }
+    };
+
+    private String saveImage(Bitmap image) {
+        String savedImagePath = null;
+        //String imageFileName = "BVM_Aumni_"++".jpg";
+        File storageDir = new File(Environment.getExternalStorageDirectory() + "/BVM Alumni");
+        boolean success = true;
+        if(!storageDir.exists()) {
+            success = storageDir.mkdirs();
+        }
+        if(success) {
+            File imageFile = null;//new File(storageDir, imageFileName);
+            try {
+                imageFile = File.createTempFile("BVM", ".jpg",storageDir);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            if(imageFile != null) {
+                savedImagePath = imageFile.getAbsolutePath();
+                try {
+                    OutputStream fout = new FileOutputStream(imageFile);
+                    image.compress(Bitmap.CompressFormat.JPEG, 100, fout);
+                    fout.close();
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                galleryAddPic(savedImagePath);
+                Toast.makeText(getApplicationContext(), "Image Saved", Toast.LENGTH_LONG).show();
+            }
+        }
+        return savedImagePath;
+    }
+
+    private void galleryAddPic(String imagePath) {
+        Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
+        File f = new File(imagePath);
+        Uri contentUri = Uri.fromFile(f);
+        mediaScanIntent.setData(contentUri);
+        sendBroadcast(mediaScanIntent);
+    }
 
 //    @Override
 //    public boolean onCreateOptionsMenu(Menu menu) {
@@ -128,14 +203,11 @@ public class DetailActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment (defined as a static inner class below).
             return PlaceholderFragment.newInstance(position, data.get(position).getName(), data.get(position).getUrl());
         }
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
             return data.size();
         }
 
@@ -196,10 +268,11 @@ public class DetailActivity extends AppCompatActivity {
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(layout.fragment_detail, container, false);
 
+            //final ImageView imageView = (ImageView) rootView.findViewById(id.detail_image);
             final ImageView imageView = (ImageView) rootView.findViewById(id.detail_image);
-
+            imageView.setOnTouchListener(new ImageMatrixTouchHandler(rootView.getContext()));
             Glide.with(getActivity()).load(url).thumbnail(0.1f).into(imageView);
-
+            downloadURL = url;
             return rootView;
         }
 

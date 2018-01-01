@@ -80,7 +80,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="phone"
-                    android:hint="Mobile No"
+                    android:hint="Mobile No i.e. +91-1234567890"
                     android:padding="10dp"
                     android:ems="10"
                     android:layout_marginRight="30dp"
