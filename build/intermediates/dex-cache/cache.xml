@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/jay/Downloads/BVM-Alumni-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b29dbf2a9e6517cdc83899053d0ca766c0755fad">
+        <dex dex="/home/jay/Downloads/BVM-Alumni-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_503d0b91bc41b273e991a816923c746bb31a74a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/94ae694fd050f13449cbb576b2dc1fcc3abd924d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="315523264c41d6bb80791296c8872cf5c3b63cf7">
+        <dex dex="/home/jay/Downloads/BVM-Alumni-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fe57e34d719e1b92b0af0d7ae18dab3c4416c288/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/Downloads/BVM-Alumni-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="/home/jay/Downloads/BVM-Alumni-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bc8fc6371cbe64e45b540d942357b7b8f41c6198/classes.dex" />
+    </item>
+
+</items>

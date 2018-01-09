@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.bogdwellers:pinchtozoom-0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/94ae694fd050f13449cbb576b2dc1fcc3abd924d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/94ae694fd050f13449cbb576b2dc1fcc3abd924d/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
