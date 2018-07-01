@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 public class Info {
     public static String url = "http://jaypatel.co.in/bvm/";
+    //public static String url = "http://bvmengineering.ac.in/alumniapp/";
     public static DataBaseAdapter dataBase;
 
     public Info(Context context) {

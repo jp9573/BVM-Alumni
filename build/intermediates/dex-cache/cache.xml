@@ -3,30 +3,345 @@
 
     <item
         is-multidex="true"
-        jar="/home/jay/Downloads/BVM-Alumni-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="/home/jay/.android/build-cache/0894c905d2c5c1bd4ea6ac75b334e2e090b4f6da/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="27.0.2"
-        sha1="b29dbf2a9e6517cdc83899053d0ca766c0755fad">
-        <dex dex="/home/jay/Downloads/BVM-Alumni-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_503d0b91bc41b273e991a816923c746bb31a74a3/classes.dex" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55c7ccf08bc39ec31cda4fd29ed85358bfe2c0e2/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/jay/.android/build-cache/94ae694fd050f13449cbb576b2dc1fcc3abd924d/output/jars/classes.jar"
-        jumboMode="true"
+        jar="/home/jay/.android/build-cache/a72931316c1dea114f67b7a5a3468c790fc3328a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_501d8eb166ce0ab72a02916d2e7965e9502a8b4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/cfbd0f20894c82d1982fc3ece549b2a072c481c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb503c9a918e21dfef2f0c23b7f5013d2e6be76b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_b65c31e33baa8983c3036d726cb6969eacb757c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/69e0130a91a88f737ae2c95d2b28c367c2602a21/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d0699baaebc4bda63ad3d23a090b9d769d77cd2d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/d7a613b4097607c7e1f8ed2e1c19bf0f26155271/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e431d0c0d048ed283e3bde1b7303799322360be5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/b1aaadeb93f20e48bc188f3c0d31885e9aad937c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="59ab24f91ed78ef21bb161e395cf73c29b975de5">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c577b45adbb40933a7f6dc154d80674ca05be026/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/a40e38e26f7a8eee737eb7b6ef7ae1aa4fce82a8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_189c2dce97f89b7633c30f32cb633998fe938f14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/1ff452adb97c700c69379199742ffde63964f991/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9870dd0e29d7123d91de149622ad470ebe7f47bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.0.0/d88059003509074dd59fa226c822724bcf5ec0ca/disklrucache-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d88059003509074dd59fa226c822724bcf5ec0ca">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/disklrucache-4.0.0_832f8602db678c0bc44bac2ad90de9b4572a34ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/dc168742dffe099a34d31c405c18f327341b8a15/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a26af9de1fe819ef789fc1251ab36033f430cc4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/b42e3cc7a59e9cb5c5b4f5cad59a1725bea2a8a5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="4b685077cdb08cf7ae8b61afd1fe910e47d91b9a">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b9ba4088227f4b80deb0842731198c27243cbed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_df19392e1bd481035a2d9fd7ab4b305b0aa5e6f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/fb2cf70a60cb9b29de595c1e0a0deb7f375dc2b5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8662d29182152fe89754fcfe96026a80e8f1a2de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/0d195e3c8496de00f32b468458448944e7c30151/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_426c6a5306aff03544811d366f51be7bbfdfd1df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/6e25b588a2e3b27d9e561761645f885e6d057d02/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b49a50143514fe2a92acd2dc1bfc11c375626223/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/d26b714d0569180ccf9bcedeaa04a356cc1e49bb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ac287e2d2d7863bac95ae6b791f51b73fd2bcf3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/553de1b4a3977dc50d1e8527766a1c3b2e700fef/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_673c9cc89ac43340efc50ae61e612cd783b6b098/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/4b410cd66550c83fd80afac779dfd84484d28bb2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="3ac08c35419ab7cf9146969de471768dbe502f0f">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94eb3a33238072c07c86306d9bfe63ed4a9569e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/9623f93675f6191570181ea914544503d631f642/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_69852896fff95d7a900ae0e39fba074a673c5608/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/f1c39a7b2ed6ababead503bd14b41e9bd06ac3da/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fd8058f384143f5985db7ba9f0cd33959b5b9135/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/f7f0e7befbf67e8338d9c6142a9c36b7745c5110/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a0be21cad5bc8acd899448d6c841d1c242d72fd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/c0b6882cf53467c46b1482f4c3bbba2c2a4f9347/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9fd9186cce61cf15e2a15c0ee948a54136cc5905/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/3a5afdeafddb25c67c21327cc3a4e27c7f748a06/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e70a3fed299d84cd868614e11021664d72b8e488">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7c75979dd26733518c0efed7b7b13a352af9c364/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/d856d60f1c59b822601ab96b1fa7c65ec23d17ba/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_055ce6221300ff642fb1bab22d99a0a4d5d71d1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.0.0/47c487cc4e64e6ab127a517669ca9a7b49f8c61d/gifdecoder-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="47c487cc4e64e6ab127a517669ca9a7b49f8c61d">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/gifdecoder-4.0.0_75fec1b0c28f25c81e59487c7f435b7b4b049c85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/902d77319683815495e94ffd51408c5c3e914359/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2299288fd93b49b7ac9d4836724274323e31b2da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/dc82fd1b9756887eade1a40a5a476c3af0e1d6a2/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="27.0.2"
         sha1="315523264c41d6bb80791296c8872cf5c3b63cf7">
-        <dex dex="/home/jay/Downloads/BVM-Alumni-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fe57e34d719e1b92b0af0d7ae18dab3c4416c288/classes.dex" />
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eaaef1d5a7ad8ca1c3fb447a0d2d0e6bdad884a3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/jay/Downloads/BVM-Alumni-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        jar="/home/jay/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.0.0/dff931af436f0a2815d0109ab2258bbce2d6275d/glide-4.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="27.0.2"
-        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
-        <dex dex="/home/jay/Downloads/BVM-Alumni-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bc8fc6371cbe64e45b540d942357b7b8f41c6198/classes.dex" />
+        sha1="dff931af436f0a2815d0109ab2258bbce2d6275d">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-4.0.0_c0b7a1720c0186aa41095d8ff7f3a09dc1d4380f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/9f31e4de7a7bc0534507812d879b3b827c781ab9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_957b29d72bff0eed4078a6eb09be9c1912f8182d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/d2a965354e4db380a3d0723b9e8a0a5323deeb61/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cf713600e16cc3326b9bcb7a57616572bb4eab85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/b08f076f287f86dcf0281e5997c625b41e9d1d87/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="f47f4d5bdfd7d7bf330945b8a7ccce4ab437a710">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7700c800ad0fd8731cf1d5b6ff2b7b3c4b40132d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/7c543dd8ce760beff0a431fa14cbb14c17f5c4b2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d92780fd2dc31419480b9c478f7c7bb5599f4ada">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ac8339d9a468da743b71df2d62823e095a621efe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.0.0/f80192e6fd828d41c7da6f3552b0bef5d89cb26e/annotations-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="f80192e6fd828d41c7da6f3552b0bef5d89cb26e">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/annotations-4.0.0_285f39699b1b7b38f8b4245ed0e0a187a072d119/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/bfd34cba29e81d81faf3288fd74d1b3794407933/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_981b78db73a9dc12228d8343631c0b93a9ce9987/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/1c60ceebee577b32be2b9eb3f430759f59a6b055/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f208381e4142ec18d023aa6e2ab17cf5f690cce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/.android/build-cache/cc4d5a65a88790486978af0925040237cc4d85c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aa51e017defd797e4b608ed5a439138922340ca4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jay/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/jay/AndroidStudioProjects/BVM Alumni/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_5c472891d25deb312db8d99a6d23a4f67fbbb427/classes.dex" />
     </item>
 
 </items>
